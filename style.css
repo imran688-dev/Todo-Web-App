@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Hedvig Letters Serif', serif;
+  background-color: 	#002e63;
+  color: #fff;
+}
+
+main{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.task-input{
+  margin: 50px 0;
+}
+
+#new-task-input{
+  padding: 10px;
+  border: 1px solid #ffbf00;
+  font-size: 18px;
+  width: 100%;
+}
+
+.task-input h1{
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+.task-list h2{
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+#new-task-submit{
+  padding: 13px;
+  border: none;
+  outline: none;
+  background-color: #007fff;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#tasks{
+  background-color:	#0047ab;
+  padding: 30px;
+  border: 2px solid #4dff00;
+}
+
+.task{
+  margin-bottom: 20px;
+  background-color: #004225;
+  padding: 10px;
+}
+.text{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 15px 5px;
+  border-bottom: 2px solid #009454;
+  margin-bottom: 10px;
+}
+
+.edit, .delete, .complete{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: rgb(130, 1, 1);
+  margin: 0 10px;
+}
+.complete {
+  background-color: rgb(700, 90, 2);
+}
+
+.mark-complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+
+
+
